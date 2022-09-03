@@ -14,6 +14,9 @@ SRC_URI = " \
     https://cdn.kernel.org/pub/linux/kernel/v3.x/linux-${LINUX_VERSION}.tar.xz \
     file://defconfig \
     file://0001-hi3518-buildroot-from-01-05-2017.patch \
+    file://0003-update-log2-header-from-the-Linux-kernel.patch \
+    file://0004-fix-const-registers.patch \
+    file://0005-compiler-gcc9.patch \
 "
 
 KBUILD_DEFCONFIG_KMACHINE ?= "hi3518e_full_defconfig"
